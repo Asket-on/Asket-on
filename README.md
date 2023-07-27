@@ -54,5 +54,5 @@
 - - -
 
 - - -
-
+![](https://komarev.com/ghpvc/?username=Asket-on)
 <a href="#link6"><img src='https://img.shields.io/badge/К началу-&#x21A9-blue'></a>
