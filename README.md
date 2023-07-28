@@ -14,6 +14,7 @@
 
 
 <p align="center"> <a href="https://github.com/Asket-on/certificates">Сертификаты о прохождении курсов</a></p>
+
 - - -
 
 Ноутбуки `.ipynb` и `.py` скрипты:
