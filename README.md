@@ -30,7 +30,7 @@
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
-- - -
+
 <p align="center">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -54,6 +54,5 @@
 
 - - -
 
-- - -
 ![](https://komarev.com/ghpvc/?username=Asket-on)
 <a href="#link6"><img src='https://img.shields.io/badge/К началу-&#x21A9-blue'></a>
