@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <a href="https://www.kaggle.com/mikhailvolobuev"><img src='https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white'></a>
+
   <a href="https://leetcode.com/mvolobuev/"><img src='https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black'></a>
   
 </p>
