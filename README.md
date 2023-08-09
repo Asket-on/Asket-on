@@ -20,7 +20,7 @@
 
 01. [Репозиторий - Проекты Data Science](https://github.com/Asket-on/Data_science_projects) 
 
-02. [Репозиторий - Проекты Data Engineer (в разработке)](https://github.com/Asket-on/Data_engineer_projects) 
+02. [Репозиторий - Проекты Data Engineer](https://github.com/Asket-on/Data_engineer_projects) 
 
 Проекты-репозитории:
 
