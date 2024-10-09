@@ -2,23 +2,23 @@
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
 
+- - -
 
-
-<p align="center"> <a href="https://github.com/Asket-on/certificates">Сертификаты о прохождении курсов</a></p>
+<p align="center"> <a href="https://github.com/Asket-on/certificates">The certificates of course completion</a></p>
 
 - - -
 
-Ноутбуки `.ipynb` и `.py` скрипты:
+Notebooks `.ipynb` and `.py` scripts:
 
-01. [Репозиторий - Проекты Data Science](https://github.com/Asket-on/Data_science_projects) 
+01. [Repository - Data Science Projects](https://github.com/Asket-on/Data_science_projects) 
 
-02. [Репозиторий - Проекты Data Engineer](https://github.com/Asket-on/Data_engineer_projects) 
+02. [Repository - Data Engineer Projects](https://github.com/Asket-on/Data_engineer_projects) 
 
-Проекты-репозитории:
+Project Repositories:
 
-01. [Репозиторий - Web-приложение для изучения английского языка](https://github.com/Asket-on/English-exercise-generator)
+01. [Repository - Web Application for Learning English](https://github.com/Asket-on/English-exercise-generator)
 
----
+- - -
 
 ### :hammer_and_wrench: Languages and Tools :
 
@@ -36,7 +36,7 @@
   <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" />
 </p>
 
----
+- - -
 <p align="center">
   <a href="https://leetcode.com/mvolobuev/"><img src='https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black'></a>
   
