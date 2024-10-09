@@ -1,7 +1,6 @@
 <h1 align="center">Hi there, I'm Mikhail
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
-
 - - -
 
 <p align="center"> <a href="https://github.com/Asket-on/certificates">The certificates of course completion</a></p>
