@@ -1,7 +1,6 @@
 <h1 align="center">Hi there, I'm Mikhail
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
-- - -
 
 <p align="center"> <a href="https://github.com/Asket-on/certificates">The certificates of course completion</a></p>
 
@@ -37,15 +36,13 @@ Project Repositories:
 
 - - -
 <p align="center">
-  <a href="https://leetcode.com/mvolobuev/"><img src='https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black'></a>
-  
+  <a href="https://leetcode.com/mvolobuev/"><img src='https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black'></a>  
 </p>
 - - -
 <p align="center">
 <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=Asket-on&show_icons=true&layout=compact&theme=tokyonight'/>
 </p>
 
-- - -
 
 ![](https://komarev.com/ghpvc/?username=Asket-on)
 <a href="#link6"><img src='https://img.shields.io/badge/К началу-&#x21A9-blue'></a>
