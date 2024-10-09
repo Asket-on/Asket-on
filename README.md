@@ -1,11 +1,6 @@
 <h1 align="center">Hi there, I'm Mikhail
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
-</div>
-
-
 <p align="center">
   <a href="https://leetcode.com/mvolobuev/"><img src='https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black'></a>
   
