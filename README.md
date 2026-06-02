@@ -1,8 +1,21 @@
 <h1 align="center">Hi there, I'm Mikhail
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
+<p align="center">Data Engineer focused on Python, SQL, ETL, data quality, and reliable analytics foundations.</p>
 
 <p align="center"> <a href="https://github.com/Asket-on/certificates">The certificates of course completion</a></p>
+
+- - -
+
+## Featured Data Engineering Project
+
+[![CI](https://github.com/Asket-on/de-financial-dwh-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Asket-on/de-financial-dwh-pipeline/actions/workflows/ci.yml)
+
+### [de-financial-dwh-pipeline](https://github.com/Asket-on/de-financial-dwh-pipeline)
+
+Built a reproducible financial DWH demo that loads synthetic transaction and exchange-rate data, constructs a daily metrics mart, validates outputs with SQL quality gates, and exposes Airflow-compatible orchestration tasks.
+
+**Stack:** Python, SQL, ETL, Data Quality, DWH Modeling, Airflow-compatible orchestration, Docker, SQLite, PostgreSQL, Vertica
 
 - - -
 
