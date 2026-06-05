@@ -10,12 +10,17 @@
 ## Featured Data Engineering Project
 
 [![CI](https://github.com/Asket-on/de-financial-dwh-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Asket-on/de-financial-dwh-pipeline/actions/workflows/ci.yml)
+[![Dashboard](https://img.shields.io/badge/dashboard-GitHub%20Pages-blue)](https://asket-on.github.io/de-financial-dwh-pipeline/)
 
 ### [de-financial-dwh-pipeline](https://github.com/Asket-on/de-financial-dwh-pipeline)
 
 Built a reproducible financial DWH demo that loads synthetic transaction and exchange-rate data, constructs a daily metrics mart, validates outputs with SQL quality gates, and exposes Airflow-compatible orchestration tasks.
 
+**Live dashboard:** [asket-on.github.io/de-financial-dwh-pipeline](https://asket-on.github.io/de-financial-dwh-pipeline/)
+
 **Stack:** Python, SQL, ETL, Data Quality, DWH Modeling, Airflow-compatible orchestration, Docker, SQLite, PostgreSQL, Vertica
+
+**Verified:** GitHub Actions CI, Docker Compose execution, bounded Airflow catchup, PostgreSQL-compatible warehouse SQL, deterministic dashboard artifact
 
 - - -
 
