@@ -1,11 +1,10 @@
-# Hi, I'm Mikhail Volobuev (Asket-on) 👋
+# Hi, I'm Mikhail Volobuev 👋
 ### Data Engineer & Data Scientist | Architecting Scalable Pipelines & Analytical DWH
 
 I specialize in building robust, end-to-end data architectures, processing high-throughput streaming and batch data, and deploying production-ready machine learning pipelines. My focus is on data reliability, performance optimization, and clean warehouse modeling.
 
 - 🔭 **Current Focus**: Refining distributed storage architectures and microservice-driven data ingestion.
 - ⚙️ **Engineering Principles**: Complete containerisation, strict idempotency guarantees, and clean, decoupled architectures.
-- 📫 **How to reach me**: [LinkedIn](https://linkedin.com/in/asket-on) | [Telegram](https://t.me/asket_on) | email@example.com
 
 ---
 
@@ -38,7 +37,7 @@ I specialize in building robust, end-to-end data architectures, processing high-
 
 ---
 
-## 🏗️ Refactored Portfolio Highlights
+## 🏗️ Portfolio Highlights
 
 ### 🚀 [Data Engineering Projects](https://github.com/Asket-on/Data_engineer_projects)
 *A comprehensive collection of 9 production-grade data engineering pipelines, systematically refactored and containerised:*
