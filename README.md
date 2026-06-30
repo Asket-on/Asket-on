@@ -52,7 +52,7 @@ I specialize in building robust, end-to-end data architectures, processing high-
 - Developed deep learning models to predict audio genre, mood, and artist metadata directly from album cover graphics.
 - Utilized PyTorch and pre-trained ResNet/ConvNeXt backbones with custom multi-label classification heads.
 
-### 🦅 [Bird Strike & Weather Pipeline](https://github.com/Asket-on/bird_strike_weather_pipeline)
+### 🦅 [Bird Strike & Weather Pipeline](https://github.com/Asket-on/bird-strike-weather-pipeline)
 *An ETL data enrichment pipeline connecting aviation incident logs with weather data:*
 - Fetches real-time weather logs from global meteorological APIs matching the date and location coordinates of aviation bird strike events.
 - Performs cleaning, deduplication, and stores enriched datasets in an analytical database for risk analysis.
