@@ -1,10 +1,30 @@
 # Hi, I'm Mikhail Volobuev 👋
-### Data Engineer & Data Scientist | Architecting Scalable Pipelines & Analytical DWH
+### Data Engineer & Data Scientist | Architecting Scalable Pipelines & Cloud DWH
 
-I specialize in building robust, end-to-end data architectures, processing high-throughput streaming and batch data, and deploying production-ready machine learning pipelines. My focus is on data reliability, performance optimization, and clean warehouse modeling.
+I specialize in building robust, end-to-end data architectures, processing high-throughput streaming and batch data, and deploying production-ready analytical pipelines. My focus is on data reliability, performance optimization, and clean warehouse modeling.
 
-- 🔭 **Current Focus**: Refining distributed storage architectures and microservice-driven data ingestion.
-- ⚙️ **Engineering Principles**: Complete containerisation, strict idempotency guarantees, and clean, decoupled architectures.
+- 🔭 **Current Focus**: Modern Cloud DWH (Google Cloud BigQuery & GCS), stream-table joins with PySpark, and enterprise Airflow orchestration.
+- ⚙️ **Engineering Principles**: Complete containerisation, strict idempotency guarantees, visible data-quality gates, and clean, decoupled architectures.
+- 📜 **Credentials**: *Google Cloud Professional Certificate: Cloud Data Engineer* | Yandex Practicum Data Engineering & Data Science specializations.
+
+---
+
+## 🏗️ Featured Flagship Project
+
+### 🌟 [de-financial-dwh-pipeline](https://github.com/Asket-on/de-financial-dwh-pipeline)
+[![CI](https://github.com/Asket-on/de-financial-dwh-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Asket-on/de-financial-dwh-pipeline/actions/workflows/ci.yml)
+[![Pages](https://github.com/Asket-on/de-financial-dwh-pipeline/actions/workflows/pages.yml/badge.svg)](https://asket-on.github.io/de-financial-dwh-pipeline/)
+[![Release](https://img.shields.io/badge/release-v1.1.1-blue.svg)](https://github.com/Asket-on/de-financial-dwh-pipeline/releases/tag/v1.1.1)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Asket-on/de-financial-dwh-pipeline/blob/main/LICENSE)
+
+A production-grade, multi-target financial data warehouse pipeline demonstrating batch ELT across three storage tiers:
+- **Tier 1 (Zero-Dependency Local)**: Python standard library + SQLite — runs instantly in seconds without setup overhead.
+- **Tier 2 (Enterprise Containerized)**: PostgreSQL with separate `staging` and `dwh` schemas, orchestrated by Airflow with verified bounded catchup.
+- **Tier 3 (Modern Cloud Scale)**: **Google Cloud BigQuery & GCS** featuring partition (`PARTITION BY DATE`) and clustering (`CLUSTER BY currency_code, status`) cost optimization, deterministic `QUALIFY` deduplication, and in-warehouse machine learning (`ARIMA_PLUS` 7-day volume forecasting via BigQuery ML).
+- **Quality & Assurance**: 5/5 SQL quality assertions protecting against corrupt amounts, missing exchange rates, duplicate grain, and join fanouts. 24/24 passing unit tests in automated GitHub Actions CI.
+
+🔗 **Live Dashboard:** [asket-on.github.io/de-financial-dwh-pipeline](https://asket-on.github.io/de-financial-dwh-pipeline/)  
+📖 **Architecture Guide:** [BigQuery Cloud Warehouse Architecture](https://github.com/Asket-on/de-financial-dwh-pipeline/blob/main/docs/bigquery_architecture.md)
 
 ---
 
@@ -13,23 +33,23 @@ I specialize in building robust, end-to-end data architectures, processing high-
 <table>
   <tr>
     <td valign="top" width="50%">
-      <h3>⚙️ Data Engineering & Streaming</h3>
+      <h3>⚙️ Data Engineering & Cloud</h3>
       <ul>
-        <li><b>Orchestration:</b> Apache Airflow, Prefect</li>
-        <li><b>Stream Processing:</b> Apache Spark (Structured Streaming), Apache Kafka</li>
-        <li><b>Analytical DWH:</b> Vertica, ClickHouse, Hadoop (HDFS, MapReduce)</li>
-        <li><b>Databases:</b> PostgreSQL, MongoDB, Redis, MySQL</li>
-        <li><b>Languages:</b> Python, SQL (PL/pgSQL), Scala (basics)</li>
+        <li><b>Cloud & DWH:</b> Google Cloud Platform (BigQuery, Cloud Storage, BigQuery ML), ClickHouse, PostgreSQL, Vertica, Hadoop</li>
+        <li><b>Orchestration & CI:</b> Apache Airflow, Docker, Docker Compose, GitHub Actions</li>
+        <li><b>Stream & Big Data:</b> Apache Spark (PySpark, Structured Streaming), Apache Kafka</li>
+        <li><b>Databases & Caches:</b> PostgreSQL, Redis, MongoDB, MySQL, SQLite</li>
+        <li><b>Languages & Tools:</b> Python (Advanced), SQL (BigQuery, PostgreSQL, SQLite), Bash</li>
       </ul>
     </td>
     <td valign="top" width="50%">
       <h3>📊 Data Science & Machine Learning</h3>
       <ul>
-        <li><b>ML Frameworks:</b> PyTorch, Scikit-Learn, LightGBM, XGBoost</li>
+        <li><b>ML Frameworks:</b> PyTorch, Scikit-Learn, LightGBM, XGBoost, BigQuery ML</li>
         <li><b>Data Analysis:</b> Pandas, NumPy, SciPy, Matplotlib, Seaborn</li>
-        <li><b>Computer Vision:</b> OpenCV, PIL, Torchvision</li>
+        <li><b>Computer Vision:</b> OpenCV, PIL, Torchvision (ResNet, ConvNeXt)</li>
         <li><b>MLOps & API:</b> FastAPI, Flask, MLflow</li>
-        <li><b>Visualisation:</b> Metabase, Tableau, Jupyter Notebooks</li>
+        <li><b>Visualisation:</b> Metabase, Tableau, Looker Studio, Jupyter</li>
       </ul>
     </td>
   </tr>
@@ -37,14 +57,14 @@ I specialize in building robust, end-to-end data architectures, processing high-
 
 ---
 
-## 🏗️ Portfolio Highlights
+## 📁 More Portfolio Highlights
 
 ### 🚀 [Data Engineering Projects](https://github.com/Asket-on/Data_engineer_projects)
 *A comprehensive collection of 9 production-grade data engineering pipelines, systematically refactored and containerised:*
-- **Project 9 (Final Project)**: A scheduled daily batch pipeline migrating transactional data from PostgreSQL to Vertica using Airflow, computing showcase metrics in `DWH.global_metrics`.
-- **Project 8 (Cloud Microservice DWH)**: A microservice-driven streaming pipeline in Yandex Cloud using Kafka, Redis dictionary cache, PostgreSQL, and Docker.
+- **Project 9 (Financial DWH Pipeline)**: Scheduled batch pipeline with exchange-rate deduplication and analytical mart metrics in `dwh.global_metrics`.
+- **Project 8 (Cloud Streaming DWH)**: Microservice-driven streaming pipeline using Kafka, Redis dictionary cache, PostgreSQL, and Docker.
 - **Project 7 (Real-Time Spark Streaming)**: Real-time user event stream-static joins from Kafka with Postgres metadata tables in PySpark.
-- **Project 5 (Community Conversion Data Vault)**: Analytical DWH implemented in **Data Vault 2.0** model (Hubs, Links, Satellites) inside Vertica.
+- **Project 5 (Community Conversion Data Vault)**: Analytical DWH implemented in **Data Vault 2.0** model (Hubs, Links, Satellites).
 - **Project 4 (Slowly Changing Dimensions)**: Incremental Airflow ETL pipeline parsing MongoDB order payloads and compiling courier metrics in SCD Format.
 
 ### 🎵 [Yandex Music Cover Detection](https://github.com/Asket-on/yandex_music_cover_detection)
@@ -73,4 +93,3 @@ I specialize in building robust, end-to-end data architectures, processing high-
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Asket-on&theme=nord" alt="Asket-on Commit Streak" height="150" />
 </p>
-
