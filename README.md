@@ -82,7 +82,7 @@ A production-grade, multi-target financial data warehouse pipeline demonstrating
 
 ## 🇩🇪 Über mich / Standort
 - **Standort:** Bochum, Nordrhein-Westfalen (NRW), Deutschland (Offen für Vor-Ort, Hybrid & Remote Positionen)
-- **Sprachen:** Englisch (Fließend / C1-Level im IT-Umfeld), Deutsch (B1 Leseverständnis & technische Dokumentation, A1/A2 Konversation), Russisch (Muttersprache)
+- **Sprachen:** Englisch (B1 — Fachliteratur, Spezifikationen & Code / Grundkenntnisse mündlich), Deutsch (B1 — Technisches Verständnis & Dokumentation, DTZ B1 zertifiziert / Grundkenntnisse mündlich), Russisch (Muttersprache)
 - **Fokus:** Data Platform Engineering, Cloud DWH (BigQuery, PostgreSQL), skalierbare Batch- & Streaming-Pipelines (Airflow, PySpark, Kafka)
 
 ---
